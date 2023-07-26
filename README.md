@@ -55,12 +55,26 @@ $~$
 
 To get started, read the following guidelines.
 
+- [Contentful Setup](./README.md#contentful-setup)
 - [Environment variables](./README.md#environment-variables)
 - [Dependencies](./README.md#dependencies)
 - [Development](./README.md#development)
 - [Contentful API & GraphQL](./README.md#contentful-api--graphql)
 - [Contentful Components](./README.md#contentful-components)
 - [Deployment](./README.md#deployment)
+
+$~$
+
+### Contentful Setup
+
+From your site's root directory, run:
+
+   ```sh
+   cd my-homepage
+   yarn setup
+   ```
+
+   This will run a script to populate your Contentful space's content model and add demo content.
 
 $~$
 
