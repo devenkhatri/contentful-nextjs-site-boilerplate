@@ -10,7 +10,16 @@ Get Illustrations from [Designs.AI](https://designs.ai/graphicmaker)
 
 $~$
 
-## What is Contentful?
+## New Site Setup Steps
+- Create a git branch
+- Create new Organization
+- Create space in it
+- Create Management API Token (and note it)
+- Create Delivery and Preview API Token (and note it)
+- Run the import script to get the standard content in Contentful
+- Configure Live Preview using git branch url
+- Change the Homepage Banner image from Designs.AI
+- Configure Webhook to auto deploy on code change.
 
 [Contentful](https://www.contentful.com/) provides content infrastructure for digital teams to power websites, apps, and
 devices. Unlike a CMS, Contentful was built to integrate with the modern software stack. It offers a central hub for
