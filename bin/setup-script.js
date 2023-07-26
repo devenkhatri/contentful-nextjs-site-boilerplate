@@ -1,8 +1,10 @@
 const fs = require("fs")
 const path = require("path")
 const spaceImport = require("contentful-import")
-const inquirer = require("inquirer")
-const chalk = require("chalk")
+// const inquirer = require("inquirer")
+const inquirer = (...args) => import('inquirer').then(({default: inquirer}) => inquirer(...args));
+// const chalk = require("chalk")
+const chalk = (...args) => import('chalk').then(({default: chalk}) => chalk(...args));
 const data = require("./data.json")
 
 const argv = require("yargs-parser")(process.argv.slice(2))

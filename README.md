@@ -55,26 +55,14 @@ $~$
 
 To get started, read the following guidelines.
 
-- [Contentful Setup](./README.md#contentful-setup)
 - [Environment variables](./README.md#environment-variables)
+- [Contentful Setup](./README.md#contentful-setup)
 - [Dependencies](./README.md#dependencies)
 - [Development](./README.md#development)
 - [Contentful API & GraphQL](./README.md#contentful-api--graphql)
 - [Contentful Components](./README.md#contentful-components)
 - [Deployment](./README.md#deployment)
-
-$~$
-
-### Contentful Setup
-
-From your site's root directory, run:
-
-   ```sh
-   cd my-homepage
-   yarn setup
-   ```
-
-   This will run a script to populate your Contentful space's content model and add demo content.
+- [Contentful Data Export](./README.md#contentful-data-export)
 
 $~$
 
@@ -89,6 +77,19 @@ In order to authenticate the requests to the Contentful APIs, the following valu
   token: [https://www.contentful.com/developers/docs/references/content-preview-api/](https://www.contentful.com/developers/docs/references/content-preview-api/)
 
 Rename the `.env.example` file to `.env` and add the necessary values.
+
+$~$
+
+### Contentful Setup
+
+From your site's root directory, run:
+
+   ```sh
+   cd my-homepage
+   yarn import-space --space-id=<<your-space-id>> --management-token=<<your Content Management API access token>>
+   ```
+
+This will run a script to populate your Contentful space's content model and add demo content.
 
 $~$
 
@@ -321,6 +322,19 @@ through [this template](https://github.com/contentful/template-marketing-webapp-
 
 If you have other problems with Contentful not related to the Starter Template, you can contact
 the [Customer Support](https://support.contentful.com/).
+
+$~$
+
+### Contentful Data Export
+
+To backup/export data, from your site's root directory, run:
+
+   ```sh
+   cd my-homepage
+   yarn export-space --space-id=<<your-space-id>> --management-token=<<your Content Management API access token>>
+   ```
+
+This will run a script to export/backup your Contentful space's content model and content to "./bin/data-export.json" file.
 
 $~$
 
