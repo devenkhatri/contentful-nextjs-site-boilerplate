@@ -306,6 +306,11 @@ so: [https://www.contentful.com/help/setup-content-preview](https://www.contentf
 For the live preview the basic field tagging for the inspector mode and live updates are already implemented.
 For custom components, you can find the instructions at our [guide](https://www.contentful.com/developers/docs/tutorials/general/live-preview/).
 
+e.g. 
+```html
+https://marketing-site.templates.contentful.com/{entry.fields.slug}?preview=1&domain=contentful.com&space_id=<<your space id>&delivery_token=<<your delivery api token>>&preview_token=<<your preview api token>>
+```
+
 $~$
 
 ---
