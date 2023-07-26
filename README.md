@@ -293,6 +293,11 @@ the necessary environment variables keys are pre-configured in the hosting provi
 Make sure to add the necessary [environment variables values](./README.md#environment-variables) to the hosting provider
 environment variables.
 
+Below Environment Variables should be added while deploying the application
+- CONTENTFUL_SPACE_ID=
+- CONTENTFUL_ACCESS_TOKEN=
+- CONTENTFUL_PREVIEW_ACCESS_TOKEN=
+
 ---
 
 ### Content preview & live preview
