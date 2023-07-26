@@ -5,6 +5,9 @@ components, and data management.
 
 ![The homepage of the Marketing Starter Template](marketing-starter-template.jpg 'The homepage of the Marketing Starter Template')
 
+## BONUS
+Get Illustrations from [Designs.AI](https://designs.ai/graphicmaker)
+
 $~$
 
 ## What is Contentful?
@@ -357,6 +360,9 @@ $~$
 ## License
 
 MIT License, see [LICENSE](./LICENSE).
+
+## BONUS
+Get Illustrations from [Designs.AI](https://designs.ai/graphicmaker)
 
 $~$
 
