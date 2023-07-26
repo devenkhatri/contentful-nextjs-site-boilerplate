@@ -17,14 +17,10 @@ $~$
 - Create Management API Token (and note it)
 - Create Delivery and Preview API Token (and note it)
 - Run the import script to get the standard content in Contentful
-- Configure Live Preview using git branch url
+- Changed environment variables on Hosting Provider
+- Configure Live Preview using git branch url (eg. https://<<branchname>>--contentful-marketing-webapp-nextjs.netlify.app)
 - Change the Homepage Banner image from Designs.AI
 - Configure Webhook to auto deploy on code change.
-
-[Contentful](https://www.contentful.com/) provides content infrastructure for digital teams to power websites, apps, and
-devices. Unlike a CMS, Contentful was built to integrate with the modern software stack. It offers a central hub for
-structured content, powerful management, and delivery APIs, and a customizable web app that enables developers and
-content creators to ship their products faster.
 
 $~$
 
