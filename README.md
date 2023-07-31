@@ -18,7 +18,7 @@ $~$
 - Create Delivery and Preview API Token (and note it)
 - Run the import script to get the standard content in Contentful
 - Changed environment variables on Hosting Provider
-- Configure Live Preview using git branch url (eg. https://<<branchname>>--contentful-marketing-webapp-nextjs.netlify.app)
+- Configure Live Preview using git branch url (eg. https://<< branchname >>--contentful-nextjs-site-boilerplate.netlify.app)
 - Change the Homepage Banner image from Designs.AI
 - Configure Webhook to auto deploy on code change.
 
