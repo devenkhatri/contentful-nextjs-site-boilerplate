@@ -1,4 +1,4 @@
-# Contentful Marketing Starter Template
+# Contentful Nextjs Site Boilerplate
 
 A Marketing Starter Template powered by Next.js & Contentful, pre-designed with optimized & adjustable pages,
 components, and data management.
@@ -10,7 +10,7 @@ Get Illustrations from [Designs.AI](https://designs.ai/graphicmaker)
 
 $~$
 
-## New Site Setup Steps
+## Setup Steps for New Demo Site 
 - Create a git branch
 - Create new Organization
 - Create space in it
